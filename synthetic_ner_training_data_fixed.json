@@ -1,0 +1,826 @@
+{
+    "examples": [
+        {
+            "id": "ca-1",
+            "content": "list all products at Yemi's Fashion House",
+            "annotations": [
+                {
+                    "start": 21,
+                    "end": 41,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-2",
+            "content": "find for Fufu across all stores",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 13,
+                    "tag_name": "product"
+                }
+            ]
+        },
+        {
+            "id": "ca-3",
+            "content": "list all products at Oga Market",
+            "annotations": [
+                {
+                    "start": 21,
+                    "end": 31,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-5",
+            "content": "check my order with id 01314",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-7",
+            "content": "list all products at Mama Nkechi\u2019s Groceries",
+            "annotations": [
+                {
+                    "start": 21,
+                    "end": 44,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-11",
+            "content": "make a reservation at Mama Nkechi\u2019s Groceries for 2024-12-15 at 12:45",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 45,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 50,
+                    "end": 60,
+                    "tag_name": "date"
+                },
+                {
+                    "start": 64,
+                    "end": 69,
+                    "tag_name": "time"
+                }
+            ]
+        },
+        {
+            "id": "ca-12",
+            "content": "make a reservation at Mama Nkechi\u2019s Groceries for 2024-12-15 at 16:30",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 45,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 50,
+                    "end": 60,
+                    "tag_name": "date"
+                },
+                {
+                    "start": 64,
+                    "end": 69,
+                    "tag_name": "time"
+                }
+            ]
+        },
+        {
+            "id": "ca-13",
+            "content": "list all products at Oga Market",
+            "annotations": [
+                {
+                    "start": 21,
+                    "end": 31,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-14",
+            "content": "contact support about Damaged product",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 37,
+                    "tag_name": "issue"
+                }
+            ]
+        },
+        {
+            "id": "ca-15",
+            "content": "check my order with id 00123",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-16",
+            "content": "put 4 of Local beans from Lagos Essentials to my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 20,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 26,
+                    "end": 42,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 4,
+                    "end": 5,
+                    "tag_name": "quantity"
+                }
+            ]
+        },
+        {
+            "id": "ca-17",
+            "content": "cancel my reservation with id 67890",
+            "annotations": [
+                {
+                    "start": 30,
+                    "end": 35,
+                    "tag_name": "reservationId"
+                }
+            ]
+        },
+        {
+            "id": "ca-18",
+            "content": "put 3 of Palm sandals from Lagos Essentials to my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 21,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 27,
+                    "end": 43,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 4,
+                    "end": 5,
+                    "tag_name": "quantity"
+                }
+            ]
+        },
+        {
+            "id": "ca-19",
+            "content": "check my order with id 00456",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-20",
+            "content": "give me details about Balogun Boutiques",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 39,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-22",
+            "content": "find for Fufu across all stores",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 13,
+                    "tag_name": "product"
+                }
+            ]
+        },
+        {
+            "id": "ca-24",
+            "content": "list all products at Balogun Boutiques",
+            "annotations": [
+                {
+                    "start": 21,
+                    "end": 38,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-25",
+            "content": "take out Garri from Balogun Boutiques from my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 14,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 20,
+                    "end": 37,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-26",
+            "content": "take out Garri from Aba Traders from my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 14,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 20,
+                    "end": 31,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-28",
+            "content": "find for Groundnut oil across all stores",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 22,
+                    "tag_name": "product"
+                }
+            ]
+        },
+        {
+            "id": "ca-29",
+            "content": "find for Local beans across all stores",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 20,
+                    "tag_name": "product"
+                }
+            ]
+        },
+        {
+            "id": "ca-30",
+            "content": "contact support about Issue with my order",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 41,
+                    "tag_name": "issue"
+                }
+            ]
+        },
+        {
+            "id": "ca-31",
+            "content": "give me details about Yemi's Fashion House",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 42,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-37",
+            "content": "make a reservation at Mama Nkechi\u2019s Groceries for 2024-09-20 at 18:00",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 45,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 50,
+                    "end": 60,
+                    "tag_name": "date"
+                },
+                {
+                    "start": 64,
+                    "end": 69,
+                    "tag_name": "time"
+                }
+            ]
+        },
+        {
+            "id": "ca-40",
+            "content": "take out Groundnut oil from Lagos Essentials from my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 22,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 28,
+                    "end": 44,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-42",
+            "content": "list all products at Yemi's Fashion House",
+            "annotations": [
+                {
+                    "start": 21,
+                    "end": 41,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-44",
+            "content": "find for Garri across all stores",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 14,
+                    "tag_name": "product"
+                }
+            ]
+        },
+        {
+            "id": "ca-45",
+            "content": "take out Local beans from Aba Traders from my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 20,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 26,
+                    "end": 37,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-47",
+            "content": "give me details about Lagos Essentials",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 38,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-48",
+            "content": "cancel my reservation with id 67890",
+            "annotations": [
+                {
+                    "start": 30,
+                    "end": 35,
+                    "tag_name": "reservationId"
+                }
+            ]
+        },
+        {
+            "id": "ca-50",
+            "content": "list all products at Aba Traders",
+            "annotations": [
+                {
+                    "start": 21,
+                    "end": 32,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-51",
+            "content": "give me details about Mama Nkechi\u2019s Groceries",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 45,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-53",
+            "content": "cancel my reservation with id 11223",
+            "annotations": [
+                {
+                    "start": 30,
+                    "end": 35,
+                    "tag_name": "reservationId"
+                }
+            ]
+        },
+        {
+            "id": "ca-54",
+            "content": "find for Local beans across all stores",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 20,
+                    "tag_name": "product"
+                }
+            ]
+        },
+        {
+            "id": "ca-58",
+            "content": "check my order with id 00789",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-59",
+            "content": "make a reservation at Lagos Essentials for 2024-09-20 at 18:00",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 38,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 43,
+                    "end": 53,
+                    "tag_name": "date"
+                },
+                {
+                    "start": 57,
+                    "end": 62,
+                    "tag_name": "time"
+                }
+            ]
+        },
+        {
+            "id": "ca-60",
+            "content": "put 1 of Shea butter from Yemi's Fashion House to my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 20,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 26,
+                    "end": 46,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 4,
+                    "end": 5,
+                    "tag_name": "quantity"
+                }
+            ]
+        },
+        {
+            "id": "ca-61",
+            "content": "take out Palm sandals from Mama Nkechi\u2019s Groceries from my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 21,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 27,
+                    "end": 50,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-63",
+            "content": "check my order with id 00456",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-64",
+            "content": "contact support about Item not delivered",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 40,
+                    "tag_name": "issue"
+                }
+            ]
+        },
+        {
+            "id": "ca-66",
+            "content": "check my order with id 00789",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-68",
+            "content": "cancel my reservation with id 11223",
+            "annotations": [
+                {
+                    "start": 30,
+                    "end": 35,
+                    "tag_name": "reservationId"
+                }
+            ]
+        },
+        {
+            "id": "ca-70",
+            "content": "find for Palm sandals across all stores",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 21,
+                    "tag_name": "product"
+                }
+            ]
+        },
+        {
+            "id": "ca-71",
+            "content": "cancel my reservation with id 54321",
+            "annotations": [
+                {
+                    "start": 30,
+                    "end": 35,
+                    "tag_name": "reservationId"
+                }
+            ]
+        },
+        {
+            "id": "ca-72",
+            "content": "give me details about Mama Nkechi\u2019s Groceries",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 45,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-73",
+            "content": "find for Shea butter across all stores",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 20,
+                    "tag_name": "product"
+                }
+            ]
+        },
+        {
+            "id": "ca-74",
+            "content": "contact support about Incorrect billing",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 39,
+                    "tag_name": "issue"
+                }
+            ]
+        },
+        {
+            "id": "ca-75",
+            "content": "check my order with id 00456",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-76",
+            "content": "check my order with id 01011",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-77",
+            "content": "check my order with id 00456",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-80",
+            "content": "check my order with id 00789",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-82",
+            "content": "cancel my reservation with id 11223",
+            "annotations": [
+                {
+                    "start": 30,
+                    "end": 35,
+                    "tag_name": "reservationId"
+                }
+            ]
+        },
+        {
+            "id": "ca-83",
+            "content": "cancel my reservation with id 54321",
+            "annotations": [
+                {
+                    "start": 30,
+                    "end": 35,
+                    "tag_name": "reservationId"
+                }
+            ]
+        },
+        {
+            "id": "ca-84",
+            "content": "put 4 of Shea butter from Balogun Boutiques to my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 20,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 26,
+                    "end": 43,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 4,
+                    "end": 5,
+                    "tag_name": "quantity"
+                }
+            ]
+        },
+        {
+            "id": "ca-86",
+            "content": "put 2 of Local beans from Aba Traders to my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 20,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 26,
+                    "end": 37,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 4,
+                    "end": 5,
+                    "tag_name": "quantity"
+                }
+            ]
+        },
+        {
+            "id": "ca-87",
+            "content": "check my order with id 01011",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-88",
+            "content": "cancel my reservation with id 54321",
+            "annotations": [
+                {
+                    "start": 30,
+                    "end": 35,
+                    "tag_name": "reservationId"
+                }
+            ]
+        },
+        {
+            "id": "ca-89",
+            "content": "check my order with id 00789",
+            "annotations": [
+                {
+                    "start": 23,
+                    "end": 28,
+                    "tag_name": "orderId"
+                }
+            ]
+        },
+        {
+            "id": "ca-90",
+            "content": "list all products at Yemi's Fashion House",
+            "annotations": [
+                {
+                    "start": 21,
+                    "end": 41,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-92",
+            "content": "put 1 of Palm sandals from Yemi's Fashion House to my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 21,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 27,
+                    "end": 47,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 4,
+                    "end": 5,
+                    "tag_name": "quantity"
+                }
+            ]
+        },
+        {
+            "id": "ca-99",
+            "content": "take out Ankara dress from Yemi's Fashion House from my cart",
+            "annotations": [
+                {
+                    "start": 9,
+                    "end": 21,
+                    "tag_name": "product"
+                },
+                {
+                    "start": 27,
+                    "end": 47,
+                    "tag_name": "store"
+                }
+            ]
+        },
+        {
+            "id": "ca-100",
+            "content": "make a reservation at Lagos Essentials for 2024-08-25 at 12:45",
+            "annotations": [
+                {
+                    "start": 22,
+                    "end": 38,
+                    "tag_name": "store"
+                },
+                {
+                    "start": 43,
+                    "end": 53,
+                    "tag_name": "date"
+                },
+                {
+                    "start": 57,
+                    "end": 62,
+                    "tag_name": "time"
+                }
+            ]
+        }
+    ]
+}
