@@ -1,0 +1,141 @@
+text-en,intent-en
+Put Local beans from Lagos Essentials in my cart,addToCart
+"I need Shea butter from Aba Traders, add it to my basket",addToCart
+Add Garri from Mama Nkechi’s Groceries to my cart,addToCart
+"I need Groundnut oil from Aba Traders, add it to my basket",addToCart
+Put Local beans from Lagos Essentials in my cart,addToCart
+Add Palm sandals from Balogun Boutiques to my cart,addToCart
+"I need Ankara dress from Lagos Essentials, add it to my basket",addToCart
+"I need Shea butter from Lagos Essentials, add it to my basket",addToCart
+"I need Garri from Lagos Essentials, add it to my basket",addToCart
+I want to buy Groundnut oil from Oga Market,addToCart
+Get rid of Palm sandals from Yemi's Fashion House in my cart,removeFromCart
+"I changed my mind, remove Suya spice from Lagos Essentials",removeFromCart
+"Local beans from Lagos Essentials, I don’t want it anymore",removeFromCart
+"I changed my mind, remove Ankara dress from Aba Traders",removeFromCart
+"Suya spice from Mama Nkechi’s Groceries, I don’t want it anymore",removeFromCart
+Can you help me remove Groundnut oil from Oga Market?,removeFromCart
+Remove Ankara dress from my basket,removeFromCart
+Please remove Groundnut oil from Balogun Boutiques,removeFromCart
+I don't need Garri from Balogun Boutiques anymore,removeFromCart
+Get rid of Shea butter from Balogun Boutiques in my cart,removeFromCart
+I want to see my shopping cart,viewCart
+Show me my current basket,viewCart
+Can you display the contents of my cart?,viewCart
+Let me see my shopping cart,viewCart
+I want to see my shopping cart,viewCart
+Show me what's in my cart,viewCart
+What do I have in my basket?,viewCart
+What do I have in my basket?,viewCart
+Show me my current basket,viewCart
+Show me my current basket,viewCart
+Complete my purchase,purchase
+Let me pay for everything in my cart,purchase
+Process my payment for all items,purchase
+I want to finish and pay for my cart,purchase
+I’m ready to check out and pay,purchase
+Can I pay for my order now?,purchase
+I want to pay for the items in my cart,purchase
+I want to pay for the items in my cart,purchase
+Proceed to checkout and pay,purchase
+I want to checkout and pay for my items,purchase
+Can you help me reserve a time at Balogun Boutiques?,makeReservation
+Please make a reservation for me at Aba Traders on 2024-10-05 at 10:00,makeReservation
+Please make a reservation for me at Yemi's Fashion House on 2024-10-05 at 10:00,makeReservation
+Help me book a slot at Balogun Boutiques for 2024-10-05 and 10:00,makeReservation
+Please make a reservation for me at Aba Traders on 2024-10-05 at 18:00,makeReservation
+Can you help me reserve a time at Balogun Boutiques?,makeReservation
+Please book a time slot at Aba Traders for 2024-12-12,makeReservation
+Can you reserve 10:00 on 2024-11-20 at Aba Traders?,makeReservation
+Help me book a slot at Oga Market for 2024-11-20 and 10:00,makeReservation
+Help me book a slot at Oga Market for 2024-11-20 and 18:00,makeReservation
+Please cancel my reservation 98765,cancelReservation
+Cancel booking 98765,cancelReservation
+I need to cancel reservation number 98765,cancelReservation
+Please cancel the reservation with ID 98765,cancelReservation
+Please cancel my reservation 12345,cancelReservation
+I need to cancel my booking with reference 67890,cancelReservation
+Can you remove my reservation 67890?,cancelReservation
+I need to cancel reservation number 12345,cancelReservation
+Please cancel my reservation 98765,cancelReservation
+I need to cancel reservation number 12345,cancelReservation
+Show me all the stores I can shop at,accessStores
+Show me all the stores I can shop at,accessStores
+Show me the stores I can buy from,accessStores
+Can you list all available stores?,accessStores
+What stores are open for shopping?,accessStores
+What stores can I shop from?,accessStores
+What stores can I shop from?,accessStores
+Can you list all available stores?,accessStores
+Which shops are available right now?,accessStores
+Can you list all available stores?,accessStores
+Search for Suya spice in the platform,searchProduct
+Look for Local beans in stores,searchProduct
+Find where I can get Local beans,searchProduct
+Help me search for Suya spice,searchProduct
+Can you help me find Palm sandals?,searchProduct
+Find me Garri,searchProduct
+Look for Ankara dress in stores,searchProduct
+Search for Fufu in the platform,searchProduct
+Look for Local beans in stores,searchProduct
+Look for Garri in stores,searchProduct
+Show me the available items from Balogun Boutiques,viewStoreProducts
+What items does Lagos Essentials have?,viewStoreProducts
+Show me what Oga Market is selling,viewStoreProducts
+Show me what Lagos Essentials is selling,viewStoreProducts
+List the products available at Aba Traders,viewStoreProducts
+What products are available at Lagos Essentials?,viewStoreProducts
+What items does Aba Traders have?,viewStoreProducts
+Show me what Yemi's Fashion House is selling,viewStoreProducts
+Can I see items available at Balogun Boutiques?,viewStoreProducts
+What can I buy from Aba Traders?,viewStoreProducts
+I want to track my order 11223,trackOrder
+Check my order status 54321,trackOrder
+Can you track order 11223 for me?,trackOrder
+Where is my order 54321?,trackOrder
+Track my order with ID 78906,trackOrder
+Where is my order 54321?,trackOrder
+Where is my order 54321?,trackOrder
+Follow up on my order 11223,trackOrder
+Check the status of my order 54321,trackOrder
+I want to track my order 11223,trackOrder
+Provide me details for Oga Market,getStoreDetails
+I need more info about Balogun Boutiques,getStoreDetails
+I want to know more about Oga Market,getStoreDetails
+What’s the location of Aba Traders?,getStoreDetails
+Give me details of Lagos Essentials,getStoreDetails
+Tell me more about Lagos Essentials,getStoreDetails
+Tell me about Mama Nkechi’s Groceries,getStoreDetails
+Tell me more about Balogun Boutiques,getStoreDetails
+What is the contact info for Oga Market?,getStoreDetails
+I want to know more about Aba Traders,getStoreDetails
+What items do you think I should try?,getRecommendations
+Give me some suggestions based on my preferences,getRecommendations
+What products should I check out?,getRecommendations
+I’m looking for recommendations,getRecommendations
+What would you suggest based on my past purchases?,getRecommendations
+Suggest something for me,getRecommendations
+Give me some suggestions based on my preferences,getRecommendations
+Can you recommend items for me?,getRecommendations
+Give me some suggestions based on my preferences,getRecommendations
+Can I get some product recommendations?,getRecommendations
+Can you update my information?,updateProfile
+Can you update my information?,updateProfile
+Modify my profile details,updateProfile
+Can you update my information?,updateProfile
+Update my account with the following info: new phone number,updateProfile
+I want to update my profile with email change,updateProfile
+Please change my profile to reflect email change,updateProfile
+Modify my profile details,updateProfile
+Update my profile with email change,updateProfile
+Modify my profile details,updateProfile
+Contact support for missing item,contactSupport
+I want to contact support for wrong delivery,contactSupport
+There’s an issue with my order: missing item,contactSupport
+Can you assist me with missing item?,contactSupport
+I have a problem with my order: wrong delivery,contactSupport
+Help me resolve payment issue,contactSupport
+Contact support for payment issue,contactSupport
+I need assistance with payment issue,contactSupport
+Contact support for payment issue,contactSupport
+There’s an issue with my order: missing item,contactSupport
