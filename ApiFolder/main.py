@@ -2,11 +2,15 @@ from fastapi import FastAPI, HTTPException
 import random 
 
 
+from NER.utils import extract_entities
+from IntentRecoginition.utils import IR_model_perdict
+
+
 app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"example": "This is an exmaple", "data": 0}
+    return "Hello Welcome to this webpage go to http://127.0.0.1:8000/docs for U.I"
 
 @app.get("/random/{limit}")
 async def get_random(limit: int):
@@ -17,8 +21,18 @@ items = []
 
 @app.post("/items")
 def create_item(item:str):
+
+
     if item == "0":
         raise HTTPException(status_code=404, detail="Not allowed")
     else:
         items.append(item)
         return item
+    
+@app.post("/IR")
+def intent_recog_pred(sentence:str):
+    return IR_model_perdict(sentence)
+
+@app.post("/NER")
+def entity_recog_pred(sentence:str):
+    return extract_entities(sentence)
