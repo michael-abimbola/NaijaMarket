@@ -4,6 +4,7 @@ import random
 
 from NER.utils import extract_entities
 from IntentRecoginition.utils import IR_model_perdict
+from functions import personal_assistant
 
 
 app = FastAPI()
@@ -36,3 +37,8 @@ def intent_recog_pred(sentence:str):
 @app.post("/NER")
 def entity_recog_pred(sentence:str):
     return extract_entities(sentence)
+
+@app.post("/personal-assistant")
+def personal_assistant_activate(sentence:str):
+    return personal_assistant(sentence)
+
